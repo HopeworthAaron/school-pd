@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 97%;
+    padding: 20px;
+    border-radius: 0;
+    height: 100px; 
+    background-color: #462104;
+     /* smoother, more rounded edges */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    margin-top: 0px;
+}
+
+.navbar h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+.navmenu{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navmenu li{
+    display: inline-block;
+}
+
+.navmenu li a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 10px;
+    margin-right: 20px;
+}
+
+.search-box .search{
+    margin-top: 15px;
+padding: 12px 8px;
+border-radius: 50px;
+font-size: 15px;
+}
+
+.logo {
+  width: 100px;       
+  height: 100px;      
+  border-radius: 50%;  
+  object-fit: cover;   
+}
+
+body{
+      font-family: Arial, sans-serif;
+      background: #111;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+
+
+
+.intro, .features, .schedule {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #800020;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.feature {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.schedule {
+  text-align: center;
+}
+
+.class-card {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+.join-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #800020;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.join-btn:hover {
+  background: #a0002a;
+}
+
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}

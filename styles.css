@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 97%;
+    padding: 20px;
+    border-radius: 0;
+    height: 100px; 
+    background-color: #462104;
+     /* smoother, more rounded edges */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    margin-top: 0px;
+}
+
+.navbar h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+.navmenu{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navmenu li{
+    display: inline-block;
+}
+
+.navmenu li a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 10px;
+    margin-right: 20px;
+}
+
+.search-box .search{
+    margin-top: 15px;
+padding: 12px 8px;
+border-radius: 50px;
+font-size: 15px;
+}
+
+    .logo {
+  width: 100px;       
+  height: 100px;      
+  border-radius: 50%;  
+  object-fit: cover;   
+}
+
+.main-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    height: 80vh;
+    background-color: transparent;
+    background-image:url(./pic/19366.jpg);
+    box-shadow: inset 0 0 99999px rgba(0, 0, 0, 0.7);
+background-size:cover;
+background-position: center;
+border-radius: 25px; /* smoother, more rounded edges */
+  
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+body{
+      font-family: Arial, sans-serif;
+      background: #111;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 40px;
+}
+
+.main-header h5{
+    color: #794004;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.main-header h2{
+    font-size: 48px;
+    width: 340px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    color: #000000;
+}
+
+.main-header p{
+    margin-bottom: 60px;
+}
+
+.main-header .btn{
+    background-color: #462104;
+    border: 1px solid#c4ae90;
+    font-size: 24px;
+    color: #c3b096;
+    font-weight: 400;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all .5s;
+}
+
+.main-header .btn:hover{
+    color: #000000;
+    background-color: #c79e7a;
+}
+
+.main-header .img{
+    width: 560px;
+    height: auto;
+}
+
+
+.cat-section {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

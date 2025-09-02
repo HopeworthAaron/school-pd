@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 119%;
+    padding: 20px;
+    border-radius: 0;
+    height: 80px; 
+    background-color: #462104;
+     /* smoother, more rounded edges */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    margin-top: 0px;
+}
+
+.navbar h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+.navmenu{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navmenu li{
+    display: inline-block;
+}
+
+.navmenu li a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 10px;
+    margin-right: 20px;
+}
+
+.search-box .search{
+    margin-top: 15px;
+padding: 12px 8px;
+border-radius: 50px;
+font-size: 15px;
+}
+
+.logo {
+  width: 100px;       
+  height: 100px;      
+  border-radius: 50%;  
+  object-fit: cover;   
+}
+
+body{
+      font-family: Arial, sans-serif;
+      background: #111;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    
+.header{
+    color:#c0b9b9;
+}
+
+.header{
+    display: flex;
+    align-items:center;
+    width: 549px;
+    margin: auto;
+    height: 739px;
+    background-color: transparent;
+    background-image:url(./pic/view-school-classroom.jpg);
+    box-shadow: inset 0 0 99999px rgba(0,0,0,0.7);
+background-size:cover;
+margin-right: 830px;
+background-position: left;
+margin-bottom: 500px;
+position: unset;
+border-radius: 25px; /* smoother, more rounded edges */
+  padding: 30px;
+} 
+.close-s {
+    color: #c0b9b9;
+}
+
+.close-s{
+    display: flex;
+    align-items:center;
+    width: 549px;
+    margin: auto;
+    height: 720px;
+    
+    background-color: transparent;
+    background-image:url(./pic/interior-wooden-meeting-room-with-full-function-equipment.jpg);
+    box-shadow: inset 0 0 99999px rgba(0,0,0,0.7);
+background-size:cover;
+margin-left: 150px;
+background-position: left;
+margin-bottom: 500px;
+position: unset;
+border-radius: 25px; /* smoother, more rounded edges */
+   padding: 30px;
+padding-top: 550px;
+}
+
+.close-p{
+    display: flex;
+    align-items:center;
+    width: 549px;
+    margin: auto;
+    height: 700px;
+    
+    background-color: transparent;
+    background-image:url(./pic/futuristic-view-school-classroom-with-state-art-architecture.jpg);
+    box-shadow: inset 0 0 99999px rgba(0,0,0,0.7);
+background-size:cover;
+margin-left: 99px;
+background-position: left;
+margin-bottom: 500px;
+position: unset;
+border-radius: 25px; /* smoother, more rounded edges */
+   padding: 30px;
+padding-top: 550px;
+}
+.close-p{
+    color:#c0b9b9;
+}
+.main-header .btn{
+    background-color: #462104;
+    border: 1px solid#c4ae90;
+    font-size: 24px;
+    color: #c3b096;
+    font-weight: 400;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all .5s;
+    margin-top: 400px;
+}
+
+.main-header .btn:hover{
+    color: #000000;
+    background-color: #c79e7a;
+}
